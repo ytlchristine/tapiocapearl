@@ -1,21 +1,35 @@
 html{
-    background-color: #f2f1ed;
+    background-color: #ede7dd;
+    padding: 30px
 }
 .title{
-    font-family: import later lol;
+    font-size: 50px;
+    color: #ede7dd;
+    background-color: #524f45;
+    text-align: center
 }
 .subtitle{
+    font-weight: 150;
     text-align: center
 }
 .general-info{
     text-align: center
 }
 .stats{
-    text-align: left
+    text-align: center
 }
 .gender-gap-factors{
-    text-align: left
+    text-align: center
 }
 .famous-women{
-    text-align: left 
+    text-align: center
+}
+.minority-in-stem{
+    text-align: center
+}
+.resources{
+    text-align: center
+}
+.sources-cited{
+    text-align: center 
 }
