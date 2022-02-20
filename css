@@ -13,17 +13,18 @@ body{
     margin: 0px;
 }
 #text{
+    margin: 0px;
     animation-name: gradient;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    font-size: 120px;
+    font-size: 160px;
     font-family: 'Righteous', cursive;
     color: #f2f1ed;
     text-align: center  
 }
 .title{
     
-    margin: 10px;
+    margin: 0px;
     height: 180px;
     background-color: #907A9A;
     border-top: 5px solid #907A9A;
