@@ -42,6 +42,15 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.directions{
+    font-weight: 150;
+    font-size: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px; 
+    padding-bottom: 50px; 
+}
 img{
     width: 638px;
     height: 712px;
