@@ -1,16 +1,41 @@
+@keyframes gradient{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;      
+    }
+  }
 html{
     background-color: #ede7dd;
-    padding: 30px
+}
+body{
+    margin: 0px;
+}
+#text{
+    animation-name: gradient;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    padding-bottom: 25px;
+    font-size: 140px;
+    font-family: 'Righteous', cursive;
+    color: #ede7dd;
+    text-align: center  
 }
 .title{
-    font-size: 50px;
-    color: #ede7dd;
-    background-color: #524f45;
-    text-align: center
+    
+    margin: 0px;
+    height: 170px;
+    border-bottom: 30px solid red;
+    background-color: #524f45;  
 }
+
 .subtitle{
     font-weight: 150;
     text-align: center
+}
+.body-content{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .general-info{
     text-align: center
@@ -22,7 +47,9 @@ html{
     text-align: center
 }
 .famous-women{
+    height: 500px;
     text-align: center
+  
 }
 .minority-in-stem{
     text-align: center
