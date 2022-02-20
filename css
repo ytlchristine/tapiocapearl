@@ -197,7 +197,11 @@ img{
     width: 670px;
 }
 .minority-in-stem{
-    text-align: center
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    background-color: #99809e;
 }
 .resources{
     text-align: center
