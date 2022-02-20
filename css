@@ -88,6 +88,45 @@ img{
 .famous-women{
     text-align: center
 }
+#adaLovelace{
+    height: 350px;
+    width: 350px;
+    padding-right: 550px;
+}
+#ada-caption{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#marieCurie{
+    height: 350px;
+    width: 350px;
+    padding-right: 550px;
+}
+#curie-caption{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#Johnson{
+    height: 350px;
+    width: 350px;
+    padding-right: 550px;
+}
+#Johnson-caption{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#Franklin{
+    height: 350px;
+    width: 350px;
+    padding-right: 550px;
+}
+#Franklin-caption{
+    padding-left: 250px;
+    padding-right: 250px;
+}
 .minority-in-stem{
     text-align: center
 }
