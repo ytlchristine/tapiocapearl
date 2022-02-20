@@ -72,6 +72,10 @@ img{
     text-align: center;
     margin: 10px;
 }
+#historycenter{
+    width: 621px;
+    height: 465px;
+}
 .history{
     text-align: center;
     padding-left: 200px;
@@ -79,53 +83,118 @@ img{
     padding-bottom: 30px;
     background-color: #e7e3e8;
 }
+.stats-subtitle{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #907A9A;
+    text-align: center;
+    margin: 10px;
+}
+#statscenter{
+    width: 670px;
+    height:370px;
+}
 .stats{
-    text-align: center
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    background-color: #d9cedb;
+}
+.gender-gap-subtitles{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #907A9A;
+    text-align: center;
 }
 .gender-gap-factors{
-    text-align: center
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    background-color: #bcacbf;
+}
+.famous-women-subtitle{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #f2f1ed;
+    text-align: center;
+    margin: 10px;
+}
+.famous-women-instructions{
+    text-align: center;
+    color: #f2f1ed;
 }
 .famous-women{
-    text-align: center
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    background-color: #907A9A;
 }
 #adaLovelace{
     height: 350px;
     width: 350px;
-    padding-right: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #ada-caption{
     padding-left: 250px;
     padding-right: 250px;
+    color: #f2f1ed;
 }
 
 #marieCurie{
     height: 350px;
     width: 350px;
-    padding-right: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #curie-caption{
     padding-left: 250px;
     padding-right: 250px;
+    color: #f2f1ed;
 }
-
 #Johnson{
     height: 350px;
     width: 350px;
-    padding-right: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #Johnson-caption{
     padding-left: 250px;
     padding-right: 250px;
+    color: #f2f1ed;
 }
-
 #Franklin{
     height: 350px;
     width: 350px;
-    padding-right: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #Franklin-caption{
     padding-left: 250px;
     padding-right: 250px;
+    color: #f2f1ed;
+}
+.minority-subtitle{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #f2f1ed;
+    text-align: center;
+    margin: 10px;
+}
+#minoritycenter{
+    height: 370px;
+    width: 670px;
 }
 .minority-in-stem{
     text-align: center
