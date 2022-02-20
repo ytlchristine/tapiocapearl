@@ -45,7 +45,73 @@
                 <br> Decreasing Amount of Influence: Girls from a young age do not have enough role models to help inspire or provoke interest for different fields in STEM. Females of color, having an even more difficult time with this.
             </div>
             <div class = "famous-women">
-                // famous women stuff
+                <img id="adaLovelace" src="https://pbs.twimg.com/media/FMEXFcjUcAIdlpj?format=jpg&name=large"/>
+                <p id="ada-caption" style="opacity: 0.0; transition: 0.1s ease-in-out">  Ada Lovelace was an early computer scientist who created the first computer program. The algorithm for Charles Babbage’s analytical engine was constructed by her, which would  later output Bernoulli numbers. At the young age of thirty-six, she died of uterine cancer, but her works greatly aided the development of computer science.</p>
+
+                <script>
+                const adaLovelaceImg = document.getElementById("adaLovelace");
+                const adaCaption = document.getElementById("ada-caption");
+                console.log(adaLovelaceImg);
+                adaLovelaceImg.onclick = function() {
+                    if (adaCaption.style.opacity == 0) {
+                        adaCaption.style.opacity = 1;
+                    } else {
+                        adaCaption.style.opacity = 0;
+                    }
+                }
+                </script> 
+
+
+                <img id="marieCurie" src="https://pbs.twimg.com/media/FMEXFc_VgAMHI2B?format=jpg&name=large"/>
+                <p id="curie-caption" style="opacity: 0.0; transition: 0.1s ease-in-out">   Marie Curie was the first ever individual to receive the Nobel Prize twice; the first prize in 1903 for her work in physics, and the second in 1911 for her work in chemistry. Curie’s work primarily focused on radioactivity, as well as the discovery of several radioactive elements. Curium was named after Marie Curie after her death in 1944 in honor to her. </p>
+
+                <script>
+                const marieCurieImg = document.getElementById("marieCurie");
+                const curieCaption = document.getElementById("curie-caption");
+                console.log(marieCurieImg);
+                marieCurieImg.onclick = function() {
+                    if (curieCaption.style.opacity == 0) {
+                        curieCaption.style.opacity = 1;
+                    } else {
+                        curieCaption.style.opacity = 0;
+                    }
+                }
+                </script> 
+
+
+                <img id="Johnson" src="https://pbs.twimg.com/media/FMEXFfrVEAENYdi?format=jpg&name=large"/>
+                <p id="Johnson-caption" style="opacity: 0.0; transition: 0.1s ease-in-out">   Katherine Johnson is an African American mathematician. She worked for NASA during the space race in opposition to the Soviet Union. She and her colleagues were often known as “human computers” due to their expertise in mathematics. The calculations she made were critical to putting people in the United States of America in orbit. This great accomplishment was a majority of the reason how humans were able to travel to the moon. </p>
+
+                <script>
+                const JohnsonImg = document.getElementById("Johnson");
+                const JohnsonCaption = document.getElementById("Johnson-caption");
+                console.log(JohnsonImg);
+                JohnsonImg.onclick = function() {
+                if (JohnsonCaption.style.opacity == 0) {
+                    JohnsonCaption.style.opacity = 1;
+                 } else {
+                    JohnsonCaption.style.opacity = 0;
+                }
+                }
+                </script> 
+
+
+                <img id="Franklin" src="https://pbs.twimg.com/media/FMEXFgEVIAA7cPo?format=jpg&name=large"/>
+                <p id="Franklin-caption" style="opacity: 0.0; transition: 0.1s ease-in-out">    Rosalind Franklin was an English chemist whose work was mainly about molecular structures. It eventually created the base of our knowledge of the fundamental workings of microscopic things such as  DNA, RNA, and viruses. Franklin used X-ray crystallography to observe the helix shape of DNA. She died early at the age of thirty-seven. James D. Watson and Francis took the credit for her findings after she had passed. </p>
+
+                <script>
+                const FranklinImg = document.getElementById("Franklin");
+                const FranklinCaption = document.getElementById("Franklin-caption");
+                console.log(FranklinImg);
+                FranklinImg.onclick = function() {
+                if (FranklinCaption.style.opacity == 0) {
+                    FranklinCaption.style.opacity = 1;
+                 } else {
+                    FranklinCaption.style.opacity = 0;
+                }
+                }
+                </script> 
+
             </div>
             <div class = "minority-in-stem"> 
                 <div class = "minority-subtitle"> minority women in stem:</div>
