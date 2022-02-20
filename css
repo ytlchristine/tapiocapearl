@@ -22,16 +22,29 @@ body{
     color: #f2f1ed;
     text-align: center  
 }
+#subtext{
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+    padding-top: 5px;
+    color: #f2f1ed;
+    text-align: center;
+}
 .title{
     margin: 0px;
     height: 180px;
     background-color: #907A9A;
     border-top: 5px solid #907A9A;
-    border-bottom: 40px solid #CAB087;
+    border-bottom: 50px solid #CAB087;
     padding-bottom: 25px;
 }
-.about-image{
-   background-image: url(https://drive.google.com/file/d/1w4xYivL5jQBPaQeN_4qaLuqfbSr6QsuA/view) 
+.avatarcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 638px;
+    height: 712px;
 }
 .about-subtitle{
     font-family: 'Righteous', cursive;
@@ -44,12 +57,27 @@ body{
     font-weight: 150;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
+
 .body-content{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-.general-info{
-    text-align: center
+.historysubtitle{
+    padding-top: 30px;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    color: #907A9A;
+    text-align: center;
+    margin: 10px;
+}
+.history{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+    background-color: #e7e3e8;
 }
 .stats{
     text-align: center
