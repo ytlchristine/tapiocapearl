@@ -7,29 +7,29 @@
     }
   }
 html{
-    background-color: #ede7dd;
+    background-color: #f2f1ed;
 }
 body{
     margin: 0px;
 }
 #text{
     animation-name: gradient;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
-    padding-bottom: 25px;
-    font-size: 140px;
+    font-size: 120px;
     font-family: 'Righteous', cursive;
-    color: #ede7dd;
+    color: #f2f1ed;
     text-align: center  
 }
 .title{
     
-    margin: 0px;
-    height: 170px;
-    border-bottom: 30px solid red;
-    background-color: #524f45;  
+    margin: 10px;
+    height: 180px;
+    background-color: #907A9A;
+    border-top: 5px solid #907A9A;
+    border-bottom: 30px solid #CAB087;
+    padding-bottom: 25px;
 }
-
 .subtitle{
     font-weight: 150;
     text-align: center
